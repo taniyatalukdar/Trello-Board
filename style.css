@@ -1,0 +1,90 @@
+/*Apply this style to the HTML tag*/
+html{
+ background: url("http://www.gifimagesdownload.com/wp-content/uploads/2016/02/cool-background-gif-441.gif");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+body{
+    color: rgb(116, 149, 197);
+    white-space: nowrap;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color: #fff;
+
+}
+
+/* style for each trello-list*/
+/*All divs that have a class "trello-list" */
+div.trello-list{
+
+    /*Layout*/
+    display: inline-block;
+    width: 300px;
+    margin-right: 10px;
+    vertical-align: top;
+
+/* Look & feel*/
+background-color: #ddd;
+opacity: 0.8;
+border-radius: 2px 3px;
+}
+
+/*Targets any H2 inside of >dic class="trello-list"> tag*/
+div.trello-list h2{
+
+    /*spacing */
+    margin: 8px, 5px;
+    padding: 5px;
+}
+
+div.trello-list ol{
+    margin: 0;
+    padding: 0;
+}
+
+div.trello-list li{
+    /*Look & feel*/
+    list-style: none;
+    background-color: #fff;
+
+     /*Spacing*/
+     margin-bottom: 10px;
+     padding: 5px;
+}
+
+div.trello-list li:hover,
+div.trello-list a:hover{
+    background-color: #ccc;
+}
+
+div.trello-list a {
+    /*Layout*/
+    display: block;
+
+    /*Look*/
+   text-decoration: none;
+   color: #888;
+
+    /*Spacing*/
+    padding-bottom: 5px 0 px 5px 5px;/*top right bottom left*/
+}
+
+/*Scrollbar */
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background: #4892bf;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #4870B0;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #481AC9;
+}
